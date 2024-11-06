@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   // disable the host check on sandbox
   devServer: {
-    disableHostCheck: true,
+    allowedHosts: 'all',
   },
 });
