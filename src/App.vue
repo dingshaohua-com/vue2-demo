@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="tips">要求： 【关联所有班级】 选择否的时候，  【排课详情>关联已有班课】需要隐藏</div>
     <form-create
       v-model="fApi"
       :rule="rule"
@@ -80,3 +81,10 @@ export default {
   },
 };
 </script>
+<style scoped>
+.tips {
+  font-size: 30px;
+  font-weight: 700;
+  color: red;
+}
+</style>
